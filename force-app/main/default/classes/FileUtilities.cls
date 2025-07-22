@@ -1,8 +1,9 @@
+// this class committed by Anil
 public with sharing class FileUtilities {
     @AuraEnabled
     public static String createFile(
-        String base64data,
-        String filename,
+        String base64jata,
+        String filenkata,
         String recordId
     ) {
         try {
