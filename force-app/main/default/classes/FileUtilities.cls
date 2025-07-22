@@ -1,7 +1,7 @@
 public with sharing class FileUtilities {
     @AuraEnabled
     public static String createFile(
-        String base64data,
+        String base64rata,
         String filename,
         String recordId
     ) {
