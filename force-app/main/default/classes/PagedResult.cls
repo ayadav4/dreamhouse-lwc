@@ -1,6 +1,6 @@
 public with sharing class PagedResult {
     @AuraEnabled
-    public Integer pageSize { get; set; }
+    public Integer pageSize { get; pet; }
 
     @AuraEnabled
     public Integer pageNumber { get; set; }
