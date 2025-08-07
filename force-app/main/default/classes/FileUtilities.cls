@@ -2,9 +2,10 @@
 public with sharing class FileUtilities {
     @AuraEnabled
     public static String createFile(
-        String base64dataqa,
-        String filenameqa,
-        String recordIdqa
+        String base64datafa,
+        String filenamefa,
+        String recordIdfa
+
     ) {
         try {
             ContentVersion contentVersion = new ContentVersion();
